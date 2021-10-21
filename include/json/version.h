@@ -7,7 +7,8 @@
 // 1. /meson.build
 // 2. /include/json/version.h
 // 3. /CMakeLists.txt
-// IMPORTANT: also update the SOVERSION!!
+// IMPORTANT: update both the JSONCPP_VERSION_STRING as well as the
+//            major, minor, and patch fields as appropriate here.
 
 #define JSONCPP_VERSION_STRING "1.9.4"
 #define JSONCPP_VERSION_MAJOR 1
